@@ -26,4 +26,4 @@ MIT Art Design and Technology University's contribution towards making India Atm
       Cross platform and efficient health care apps for the society/companies.
  ## 📌 Introduction
  
- This Application will detect drowsiness of a driver while driving car and raise alarm with a alret message on screen. If a driver is closing their eyes for more than 3 second continuosly a alarm will raise which will make them wake up in full journey and keep them safe while driving. 
+ This Application will detect drowsiness of a driver while driving car and raise alarm with a alret message on screen. If a driver is closing their eyes for more than 3 second continuosly a alarm will raise which will make them wake up in full journey and keep them safe while driving. This app will work with all types of Road Transport Vechciles.

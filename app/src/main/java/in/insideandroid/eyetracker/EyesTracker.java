@@ -27,6 +27,7 @@ public class EyesTracker extends Tracker<Face> {
     public void onUpdate(Detector.Detections<Face> detections, Face face) {
     //    SimpleDateFormat sdf = new SimpleDateFormat("ss", Locale.getDefault());
     //    String currentDateandTime = sdf.format(new Date());
+        
         if (face.getIsLeftEyeOpenProbability() > THRESHOLD || face.getIsRightEyeOpenProbability() > THRESHOLD) {
             Log.i(TAG, "onUpdate: Open Eyes Detected");
 
@@ -55,6 +56,4 @@ public class EyesTracker extends Tracker<Face> {
     public void onDone() {
         super.onDone();
     }
-
-
 }
